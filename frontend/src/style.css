@@ -1,0 +1,66 @@
+
+:root {
+  --bs-primary: rgb(188, 211, 230);
+  --bs-secondary: #957980;
+  --bs-light: #f8f5ff;
+  --bs-dark: #051424;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg:  rgb(72, 102, 127);
+  --bs-btn-hover-border-color: rgb(72, 102, 127);
+}
+
+.Top {
+  background-color: #957980;
+  text-align: center;
+}
+
+.Bottom{
+  background-color: rgb(188, 211, 230);
+  height: 50%;
+}
+
+.Projects-div{
+    background-color: #957980;
+    text-align: center;
+}
+
+img {
+  max-width: 700px; /* image can fill the width of the container */
+  max-height: 500px; /* image won’t overflow vertically */
+  height: auto;     /* maintain aspect ratio */
+  width: auto;      /* maintain aspect ratio */
+}
+
+
+
+a {
+  color: #051424;
+  text-decoration: none;
+}
+
+td {
+  padding: 20px 50px;
+}
+
+svg * {
+  stroke-width: 0;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #f8f5ff;
+}
+
+p{
+  font-size: 1rem;
+  max-width: 600px; 
+  margin: 0 auto;
+}
